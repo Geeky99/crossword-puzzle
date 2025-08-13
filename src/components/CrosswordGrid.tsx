@@ -16,10 +16,10 @@ export default function CrosswordGrid() {
         <BlankCell blank={dataAnswer[0][4]} />
         <BlankCell blank={dataAnswer[0][5]} />
         <LetterCell letter={dataAnswer[1][0]} number="5" />
-        <LetterCell letter={dataAnswer[1][1]} number="6"/>
-        <LetterCell letter={dataAnswer[1][2]} number="7"/>
-        <LetterCell letter={dataAnswer[1][3]} number="8"/>
-        <LetterCell letter={dataAnswer[1][4]} number="9"/>
+        <LetterCell letter={dataAnswer[1][1]} number="6" />
+        <LetterCell letter={dataAnswer[1][2]} number="7" />
+        <LetterCell letter={dataAnswer[1][3]} number="8" />
+        <LetterCell letter={dataAnswer[1][4]} number="9" />
         <BlankCell blank={dataAnswer[1][5]} />
         <BlankCell blank={dataAnswer[2][0]} />
         <LetterCell letter={dataAnswer[2][1]} number="10" />
@@ -30,9 +30,9 @@ export default function CrosswordGrid() {
         <BlankCell blank={dataAnswer[3][0]} />
         <BlankCell blank={dataAnswer[3][1]} />
         <LetterCell letter={dataAnswer[3][2]} number="15" />
-        <LetterCell letter={dataAnswer[3][3]} number="16"/>
-        <LetterCell letter={dataAnswer[3][4]} number="17"/>
-        <LetterCell letter={dataAnswer[3][5]} number="18"/>
+        <LetterCell letter={dataAnswer[3][3]} number="16" />
+        <LetterCell letter={dataAnswer[3][4]} number="17" />
+        <LetterCell letter={dataAnswer[3][5]} number="18" />
       </div>
     </>
   );
